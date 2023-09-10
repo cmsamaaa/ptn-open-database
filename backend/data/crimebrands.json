@@ -21,7 +21,7 @@
         },
         "desc": "Movement +6%. This set cannot be stacked. Only 1 set will be in effect."
     },
-    "CorridorEcho": {
+    "Corridor Echo": {
         "name": "Corridor Echo",
         "rank": "S",
         "slots": {
@@ -34,5 +34,509 @@
             }
         },
         "desc": "Initial Energy +8."
+    },
+    "Creation": {
+        "name": "Creation",
+        "rank": "S",
+        "slots": {
+            "1": null,
+            "2": null,
+            "3": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "Damage caused by summoned creatures increases by 25%."
+    },
+    "Creed of Bulwark": {
+        "name": "Creed of Bulwark",
+        "rank": "S",
+        "slots": {
+            "1": null,
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": null
+        },
+        "desc": "Block +1"
+    },
+    "Depth of Restricted Area": {
+        "name": "Depth of Restricted Area",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": null,
+            "3": null
+        },
+        "desc": "After the battle starts, does not get damage from normal attacks for 20 seconds."
+    },
+    "Depths of Oblivion": {
+        "name": "Depths of Oblivion",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": null,
+            "3": {
+                "statType": "Skill Damage",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "Ultimate damage is increased by 1% every second, up to 30 stacks. The effect will be reset after the Ultimate has been used."
+    },
+    "Eastside: Dream": {
+        "name": "Eastside: Dream",
+        "rank": "B",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 1.8,
+                "maxStat": 3.6
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "3": {
+                "statType": "Normal Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            }
+        },
+        "desc": "Normal attack damage +15%."
+    },
+    "Embrace of the Dead": {
+        "name": "Embrace of the Dead",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            }
+        },
+        "desc": "Damage dealt to enemies in a Breaking state is increased by 40%."
+    },
+    "Final Prologue": {
+        "name": "Final Prologue",
+        "rank": "A",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 2.4,
+                "maxStat": 4.8
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            },
+            "3": {
+                "statType": "Healing Effect",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            }
+        },
+        "desc": "Healing is increased by 25%."
+    },
+    "Fury": {
+        "name": "Fury",
+        "rank": "A",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 2.4,
+                "maxStat": 4.8
+            },
+            "2": null,
+            "3": null
+        },
+        "desc": "After using an Ultimate, recover 20% self HP immediately. Can be triggered once at most, for every 8 seconds."
+    },
+    "Hope": {
+        "name": "Fury",
+        "rank": "A",
+        "slots": {
+            "1": null,
+            "2": {
+                "statType": "Health",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            },
+            "3": null
+        },
+        "desc": "Initial Energy +5."
+    },
+    "In Host's Name": {
+        "name": "In Host's Name",
+        "rank": "A",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 2.4,
+                "maxStat": 4.8
+            },
+            "2": null,
+            "3": {
+                "statType": "Defense",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            }
+        },
+        "desc": "Damage taken is reduced by 8% for each enemy blocked."
+    },
+    "Justice": {
+        "name": "Justice",
+        "rank": "B",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 1.8,
+                "maxStat": 3.6
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "3": null
+        },
+        "desc": "After using an Ultimate, all Sinners except the caster increase 5% Attack for 10 seconds."
+    },
+    "Nightmare Revelation": {
+        "name": "Nightmare Revelation",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": null,
+            "3": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "At the start of the battle, all allied Sinners will increase both their Attack Strength by 6% and Attack Speed by 10% for 30 seconds."
+    },
+    "Obsession": {
+        "name": "Obsession",
+        "rank": "A",
+        "slots": {
+            "1": null,
+            "2": {
+                "statType": "Health",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            },
+            "3": null
+        },
+        "desc": "Automatically dispels 1 negative effect from self every 15 seconds."
+    },
+    "Paradise Regained": {
+        "name": "Paradise Regained",
+        "rank": "S",
+        "slots": {
+            "1": null,
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": {
+                "statType": "Attack",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "Creates a spirit available for capture every 15 seconds. When someone in this set captures one, 1 Core Damage will be immediately dealt to the monster with the most number of cores on the field. Up to 2 spirits can exist at the same time."
+    },
+    "Premonition": {
+        "name": "Premonition",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": null,
+            "3": null
+        },
+        "desc": "When dealing Core Damage, True Damage (Attack *120%) is added."
+    },
+    "Providence": {
+        "name": "Providence",
+        "rank": "B",
+        "slots": {
+            "1": null,
+            "2": {
+                "statType": "Health",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "3": {
+                "statType": "Crit Rate",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            }
+        },
+        "desc": "Attack +6%."
+    },
+    "Reunion Day": {
+        "name": "Reunion Day",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": {
+                "statType": "Crit Rate",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "Recovers 3 Energy points when a normal attack lands a CRIT hit. Can be triggered once every 3 seconds."
+    },
+    "River of the Dead": {
+        "name": "River of the Dead",
+        "rank": "A",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 2.4,
+                "maxStat": 4.8
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            },
+            "3": null
+        },
+        "desc": "At the start of the battle, skill damage is increased by 30%. The effect will disappear after casting an Ultimate."
+    },
+    "Scarlet Bewitchment": {
+        "name": "Scarlet Bewitchment",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": {
+                "statType": "Magic Resistance",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "When not attacking, Attack is increased by 1% per second, stacking up to 20 times. Reset after attacking."
+    },
+    "Shackles of Life": {
+        "name": "Shackles of Life",
+        "rank": "A",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 2.4,
+                "maxStat": 4.8
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            },
+            "3": {
+                "statType": "Crit Rate",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            }
+        },
+        "desc": "Crit Damage +50%."
+    },
+    "Shattered Battlefront": {
+        "name": "Shackles of Life",
+        "rank": "A",
+        "slots": {
+            "1": null,
+            "2": {
+                "statType": "Health",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            },
+            "3": {
+                "statType": "Attack Speed",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            }
+        },
+        "desc": "At the start of the battle, Attack is increased by 15% for 30 seconds."
+    },
+    "Singularity": {
+        "name": "Singularity",
+        "rank": "S",
+        "slots": {
+            "1": null,
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": null
+        },
+        "desc": "After moving, your Attack Speed increases by 12% for 10 seconds."
+    },
+    "Soul Rift": {
+        "name": "Soul Rift",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": null
+        },
+        "desc": "Reduces a target's Defense by 4% after every normal attack for 5 seconds. Stacks up to 3 times."
+    },
+    "Syndicate: Glory": {
+        "name": "Syndicate: Glory",
+        "rank": "B",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 1.8,
+                "maxStat": 3.6
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "3": {
+                "statType": "Magic Damage",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            }
+        },
+        "desc": "Magic Damage +15% and damage received +25%."
+    },
+    "The Pandora Cage": {
+        "name": "The Pandora Cage",
+        "rank": "S",
+        "slots": {
+            "1": null,
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": {
+                "statType": "Attack Speed",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "For every 3 normal attacks, 1 extra Physical Damage (Attack*80%) is dealt to the enemy attacked on the 3rd time."
+    },
+    "Turning: Zero": {
+        "name": "Turning: Zero",
+        "rank": "A",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 2.4,
+                "maxStat": 4.8
+            },
+            "2": null,
+            "3": null
+        },
+        "desc": "Gain 3 Energy points after using Chief Skill. Can be triggered once every 10 seconds."
+    },
+    "WhiteSands Apostle": {
+        "name": "WhiteSands Apostle",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": {
+                "statType": "Normal Attack",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "A chance to Stun the target for 2 seconds when attacking. Guaranteed to trigger for monsters with core(s). Can be triggered once every 10 seconds."
+    },
+    "Year One: Perishing Star": {
+        "name": "Year One: Perishing Star",
+        "rank": "S",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 3.0,
+                "maxStat": 6.0
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            },
+            "3": {
+                "statType": "Crit Rate",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "Increases HP of self by 20% and Attack by 15%, but becomes unable to move."
     }
 }
