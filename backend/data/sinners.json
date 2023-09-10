@@ -1,0 +1,26 @@
+{
+  "Rahu": {
+    "name": "Rahu",
+    "original_img": "url",
+    "rank_up_img": "url",
+    "rank": "s"
+  },
+  "Baiyi": {
+    "name": "Baiyi",
+    "original_img": "url",
+    "rank_up_img": "url",
+    "rank": "s"
+  },
+  "KawaKawa": {
+    "name": "KawaKawa",
+    "original_img": "url",
+    "rank_up_img": "url",
+    "rank": "a"
+  },
+  "Macchiato": {
+    "name": "Macchiato",
+    "original_img": "url",
+    "rank_up_img": "url",
+    "rank": "b"
+  }
+}
