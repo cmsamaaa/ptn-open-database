@@ -1,0 +1,38 @@
+{
+    "Blue Rain": {
+        "name": "Blue Rain",
+        "rank": "A",
+        "slots": {
+            "1": {
+                "statType": "Attack",
+                "minStat": 2.4,
+                "maxStat": 4.8
+            },
+            "2": {
+                "statType": "Health",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            },
+            "3": {
+                "statType": "Magic Resistance",
+                "minStat": 4.0,
+                "maxStat": 8.0
+            }
+        },
+        "desc": "Movement +6%. This set cannot be stacked. Only 1 set will be in effect."
+    },
+    "CorridorEcho": {
+        "name": "Corridor Echo",
+        "rank": "S",
+        "slots": {
+            "1": null,
+            "2": null,
+            "3": {
+                "statType": "Attack Speed",
+                "minStat": 5.0,
+                "maxStat": 10.0
+            }
+        },
+        "desc": "Initial Energy +8."
+    }
+}
