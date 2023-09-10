@@ -1,15 +1,19 @@
-from typing import Union
+import json
 
 from fastapi import FastAPI
+
+# Load crimebrands JSON into dict
+crimebrands = {}
+with open('./data/crimebrands.json') as crimebrands_json:
+    crimebrands = json.load(crimebrands_json)
 
 app = FastAPI()
 
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
+@app.get("/crimebrand/all")
+def get_crimebrand():
+    return crimebrands
 
-
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: Union[str, None] = None):
-    return {"item_id": item_id, "q": q}
+@app.get("/crimebrand/{name}")
+def get_crimebrand(name:str):
+    return crimebrands[name]
